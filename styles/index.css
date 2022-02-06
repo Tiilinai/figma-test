@@ -1,3 +1,4 @@
+/* Header */
 
 .logo {
     display: inline-block;
@@ -72,10 +73,8 @@ a:hover {
 
 }
 
-
 .sign-up {
     position: absolute;
-    display: inline-block;
     margin-left: 1443px;
     margin-top: 30px;
     background: #4F56F1;
@@ -86,7 +85,6 @@ a:hover {
     font-size: 16px;
     line-height: 24px;
     /* identical to box height, or 150% */
-
     text-align: center;
     letter-spacing: 0.02em;
     padding-left: 31px;
@@ -94,6 +92,71 @@ a:hover {
     padding-top: 18px;
     padding-bottom: 18px;
     color: #FFFFFF;
-
+    border: none;
     }
 
+/* End header */ 
+
+section {
+    display: inline-block;
+}
+
+
+.main-title {
+    max-width: 500px;
+    width: 100%;
+    margin-left: 200px;
+    font-family: 'Ramaraja', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 76px;
+    /* or 106% */
+    letter-spacing: 0.02em;
+    color: #1B0A42;
+    }
+
+.main-info {
+    max-width: 538px;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 200px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    /* or 160% */
+
+    letter-spacing: 0.02em;
+
+    color: #9A9A9A;
+    }
+    
+.learn-more {
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 50px;
+    background: #4F56F1;
+    border-radius: 6px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    letter-spacing: 0.02em;
+    padding-left: 31px;
+    padding-right: 31px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    color: #FFFFFF;
+    border: none;
+    }
+
+.yoga {
+    max-width: 653px;
+    width: 100%;
+    margin-left: 115px;
+}
